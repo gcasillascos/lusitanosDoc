@@ -1,0 +1,45 @@
+{
+  "name": "lusitanosdoc",
+  "version": "1.0.0",
+  "description": "Printing Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gcasillascos/lusitanosDoc.git"
+  },
+  "author": "gcasillascos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcasillascos/lusitanosDoc/issues"
+  },
+  "homepage": "https://github.com/gcasillascos/lusitanosDoc#readme",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.16",
+    "async": "^3.2.4",
+    "aws-sdk": "^2.1181.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-rate-limit": "^6.5.1",
+    "helmet": "^5.1.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^4.2.0",
+    "nodemailer": "^6.7.7",
+    "pdfkit-table": "^0.1.99",
+    "qrcode": "^1.5.1",
+    "randomatic": "^3.1.1",
+    "slugify": "^1.6.5",
+    "speakeasy": "^2.0.0",
+    "vcard-js": "^1.2.2",
+    "xss-clean": "^0.1.1"
+  }
+}
